@@ -2,16 +2,53 @@
 <html>
 <head>
 	<title>My first website</title>
+	<link href="https://fonts.googleapis.com/css?family=Bowlby+One+SC&display=swap" rel="stylesheet">
+	<style type="text/css">
+		body {
+			background-color: rgb(255,255,255);
+		}
+		h1 {
+			color: rgb(236,44,139);
+			font-size: 48px;
+			text-align: center;
+			text-transform: uppercase;
+			background-color: #ffff00;
+			text-decoration: underline;
+			font-family: 'Bowlby One SC', cursive;
+		}
+		h2, h4 {
+			color: rgb(255,0,0);
+			text-align: left;
+			font-size: 32px;
+		}
+		#first {
+			text-align: justify;
+			background-color: green;
+			height: 200px;
+			width: 500px;
+			border: 10px yellow solid;
+			padding: 10px;
+			margin: 20px 0px 50px 0px;
+		}
+		#second {
+			text-align: justify;
+			background-color: orange;
+		}
+		h3 {
+			color: rgba(255,0,255,0.3);
+			text-decoration: line-through;
+		}
+	</style>
 </head>
 <body>
 <h1>Hello World</h1>
 <h2>This is another heading</h2>
 <h3>This is another heading</h3>
-<h4>This is another haeding</h4>
+<h4>This is another heading</h4>
 <h5>This is another heading</h5>
 <h6>This is last heading</h6>
 
-<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+<p id="first">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 tempor incididunt ut labore et dolore <em>magna aliqua</em>. Ut enim ad minim veniam,
 quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
 consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
@@ -19,7 +56,7 @@ cillum dolore eu fugiat nulla pariatur. Excepteur <em>sint occaecat</em> cupidat
 proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 
 
-<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+<p id="second">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 tempor incididunt ut labore et dolore magna aliqua. Ut enim ad <strong>web and app</strong> minim veniam,
 quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
 consequat. Duis aute irure dolor in <strong>development</strong> reprehenderit in voluptate velit esse
@@ -50,6 +87,26 @@ This is line 1 <br>
 	<li>This is item 2</li>
 	<li>This is item 3</li>
 </ol>
+<hr>
+<h2>Table Section</h2>
+
+<table>
+	<tr>
+		<th>Name</th>
+		<th>Student Id</th>
+		<th>Email</th>
+	</tr>
+	<tr>
+		<td>Chan Wei Peng</td>
+		<td>MR11423</td>
+		<td>weipeng699@gmail.com</td>
+	</tr>
+	<tr>
+		<td>Chan Wei Yen</td>
+		<td>MR11425</td>
+		<td>weiyen3@gmail.com</td>
+	</tr>
+</table>
 
 </body>
 </html>
